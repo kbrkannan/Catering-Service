@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tabletoselect.css" />
+    <script src="food.js"></script>
+    <title>Select your needs</title>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+               
+              <a href="food.html"><img src="./images/hogist-logo.png" height="40px" width="150px" alt="hogistlogo"></a>
+        
+             
+               <ul>
+                <li class="menu-bank"><a href="selectevent.html">Menu Bank</a> </li>
+                <li class="contactus"><a href="Contactus.html">Contact Us</a> </li>
+
+               </ul>
+            </nav>
+        </div>
+      
+    </header>
+
+    <div class="marquee-lead">
+        <marquee><h3>We provide value to customers, Our motive is to earn more value rather than earning money</h3></marquee>
+    </div>
+    <div class="image">
+    <div class="table">
+        <h2>Choose your Event</h2>
+        <div class="table-data">
+            <table>
+        
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                        </td>
+                        <td>
+                        <input type="text" placeholder="Name" id="name" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mobilenumber">Mobile Number</label>
+                        </td>
+                        <td>
+                        <input type="text" id="mobilenumber" placeholder="Mobile Number" minlength="10" maxlength="10" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                        </td>
+                        <td>
+                        <input type="email" placeholder="Email ID" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Select Your Event</label>
+                        </td>
+                        <td>
+                        <select id="events">
+                            <option id="none">None</option>
+                            <option id="marriage">Marriage</option>
+                            <option id="corporate">Corporate</option>
+                            <option id="industry">Industry</option>
+                            <option id="Party">Party</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Choose your Chef</label>
+                    </td>
+                    <td>
+                        <input list="chef">
+                        <datalist id="chef">
+                            <option >Vivek</option>
+                            <option >Damu</option>
+                            <option >Akash</option>
+                            <option >Venkat</option>
+                            <option >Priya</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="advance">Advance Payment</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="3000" id="advance" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="card-number">Card Number</label>
+                        </td>
+                        <td>
+                        <input type="text" id="card" placeholder="xxxx xxxx xxxx xxxx" maxlength="16" minlength="16" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cvv">CVV</label></td>
+                        <td>
+                        <input type="text" placeholder="xxx" minlength="3" maxlength="3" id="cvv" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <button id="submit" type="button" onclick="table_validate()">Submit</button></td>
+                        <td>
+                        <button type="button" onclick="table_validate2()">Cancel</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        
+                    </td>
+                </tr>
+            </table>
+            <div id="display">
+
+            </div>
+            <div id="display1">
+                
+            </div>
+            
+        </div>
+</div>
+
+
+
+</div>
+
+
+
+<!-- <footer>
+    <div class="container-foot">
+        <div class="foot-flex">
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p id="about-us">To constantly and continually strive to satisfy customers with personalised Sumptuous hospitality that is close to our culture. We provide value to customers, Our aim is to earn more value not more money.</p>
+        </div>
+        <div class="Quick-links">
+            <h2>Quick Links</h2>
+            Catering Services<br> Caterers <br> Catering in Chennai <br> Catering in Sholinganallur <br> Corporate Catering in Chennai 
+        </div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p id="contact">Hogist Catering Services Pvt Ltd, No 808 Workafella Sholinganallur Chennai</p>
+            <p>+911234567890</p>
+            <p>hogist@gmail.com</p>
+        </div>
+        </div>
+        <div class="end">
+            <p class="profile">Profile |</p>
+            <p class="blogs">Blogs |</p>
+            <p class="terms">Terms & Conditions |</p>
+            <p class="privacy">Privacy Policy |</p>
+            <p class="copyho">&copy Hogist 2023</p>
+
+        </div>
+        
+    </div>
+    </footer> -->
+</body>
+
+</html>

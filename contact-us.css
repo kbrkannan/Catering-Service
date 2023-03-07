@@ -1,0 +1,291 @@
+        /* The popup chat - hidden by default */
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+          }
+          
+          /* Add styles to the form container */
+          .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: white;
+          }
+          
+          /* Full-width textarea */
+          .form-container textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+            resize: none;
+            min-height: 200px;
+          }
+          
+          /* When the textarea gets focus, do something */
+          .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+          }
+          
+          /* Set a style for the submit/send button */
+          .form-container .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom:10px;
+            opacity: 0.8;
+          }
+          
+          /* Add a red background color to the cancel button */
+          .form-container .cancel {
+            background-color: red;
+          }
+          
+          /* Add some hover effects to buttons */
+          .form-container .btn:hover, .open-button:hover {
+            opacity: 1;
+          }
+          
+                  
+                   .carousel-inner img {
+                  width: 40%;
+                  height: 100%;
+                }
+                  #header{
+                      /* border: 2px solid rgb(3, 3, 3);
+                      height: 100px;
+                      padding: 10px;
+                      background-color: #e8e3e3; */
+                      position: fixed;
+                      z-index: 100;
+                      width: 100%;
+                      padding: 10px 0;
+                      color: #020202;
+                      top:0;
+                      height: 10px;
+                      margin-top: -5px;
+                      background-color: rgb(255, 0, 0);
+                  }
+                  div{
+                      
+                      color:black;
+                  }
+                  body{
+                    color: white;
+                  }
+              
+          
+              
+          
+                  a{
+                      text-decoration: none;
+                      color: rgb(253, 253, 253);
+                      float: left;
+                      
+          
+                  }
+                  a:hover{
+                      color: rgb(255, 255, 255);
+                      
+                  }
+                  body{
+                      background-color: #ffffff;
+                  }
+                  #footer{
+                    border-top: #020202;
+                      border-radius: 5px;
+                      border-color: #020202;
+                      color: #ffffff;
+                      /* background-color: rgb(253, 44, 44); */
+          
+                  }
+            /* .card{
+                      width: 300px;
+                      height: 300px;
+                  } */
+          
+          
+                  *{
+             box-sizing: border-box;
+              font-family: 'Times New Roman', Times, serif;
+              margin: 0;
+              padding: 0;
+          }
+          
+          header{
+              width: 100%;
+              height: 100px;
+          }
+          .top-heading{
+              
+              display: inline-block;
+              background:url(./images/topred.jpg) 500px 1px ;
+              background-color: red;
+              color:white;
+              padding:20px;
+              width: 100%;
+              overflow: none;
+              margin-top: -8px;
+          }
+          
+          
+          
+          
+          
+          
+          .navbar img{
+              margin-left: 5%;
+              float:left;
+          }
+          
+          .navbar ul{
+              float: right;
+              list-style: none;
+              margin-top: 13px;
+              margin-right: 4%;
+          
+          }
+          li{
+              display:inline-block;
+              padding:10px;
+          }
+          
+          
+          
+          
+          
+          a{
+              text-decoration: none;
+              color:white;
+          }
+          
+          p{
+              margin: 5px 20px;
+              text-align: justify;
+              text-indent: 30px;
+          }
+          
+          
+          footer{
+              display: flex;
+              width: 100%;
+              height:350px;
+              background-image: url(./images/topred.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+             
+              /* background-size: 100%; */
+              background-color: red;   
+              padding: 25px;
+              text-align: center;
+          }
+          
+         
+          
+          .end{
+              float:right;
+              display: flex;
+              color: white;
+              margin-right: 0px;
+          }
+          
+          
+          .img{
+              width: 10%;
+              height: auto;
+          }
+          
+          .img:hover{
+              width:-20%;
+              transform: scale(1);
+              transform-style: preserve-3d;
+          
+          }
+          
+             
+          
+          .foot-flex{
+           
+              display: flex;
+              justify-content: space-between;
+              margin: 20px ;
+              border-bottom: 1px solid white;
+              padding: 15px; 
+          }
+          /* .container-foot{
+              background-image: url(./images/topred.jpg) 500px 1px;
+          } */
+          
+          .about-us{
+              font-size: 16px;
+              width: 30%;
+              color: white;
+              height:200px;
+              
+          }
+          
+          .cater{
+              margin-left: -14px;
+          }
+          
+          .Quick-links{  
+              color: white;
+              width: 30%;
+              height:200px;
+              
+          }
+          
+          .contact{
+              
+              width: 30%;
+              color: white;
+              height: 200px;
+              
+          }
+          a::after{
+              text-decoration-line: underline;
+              transition: 1s;
+          }
+          
+          a:hover{
+              
+              color:white;
+              
+          }
+          
+          
+          h1{
+              color:black;
+              text-align: center;
+          }
+          
+          
+          
+          #Txt{
+              position: absolute;
+              top:500px;
+              left: 800px;
+              font-weight: bold
+          }
+          
+          .open-button {
+            background-color: #555;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            width: 280px;
+          }
+          

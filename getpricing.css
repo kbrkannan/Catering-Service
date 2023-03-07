@@ -1,0 +1,78 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image{
+    background-image: url(./images/Food-plate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+    margin-top: -10px;
+    height:712px;
+    width: 100%
+}
+
+
+
+img{
+   padding: 33px;
+    
+}
+
+.navbar{
+
+    background-color:black;
+    width: 100%;
+    
+    
+}
+
+.form-feed{
+    margin-top: -38%;
+    width: 30%;
+    float: left;
+    border-right: solid red 7px;
+    border-radius:30px;
+    border-bottom: solid white 7px;
+}
+p{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    text-shadow: 50px;
+    color: red;
+}
+
+
+.signup-box{
+    
+    color:white;
+    text-align: center;
+    border-right:red solid 10px;
+    
+}
+
+.navbar ul li::after{
+    background-color: white ;
+    content: ' ';
+    width: 0%;
+    height: 1.5px;
+    display: block;
+    margin: auto;
+    transition: .5s;
+    }
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:red
+}
+
+#display_item{
+    color: white;
+    margin-left: 20px;
+}

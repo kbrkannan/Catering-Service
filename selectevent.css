@@ -1,0 +1,420 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    
+    display: inline-block;
+    background:url(./images/topred.jpg) 500px 2px;
+    background-size: cover;
+    background-color: red;
+    color:white;
+    padding:20px;
+    width: 100%
+}
+
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.navbar img{
+    margin-left: 5%;
+    
+    float:left;
+}
+
+.navbar ul{
+    float: right;
+    list-style: none;
+    margin-top: 13px;
+    margin-right: 4%;
+}
+li{
+    display:inline-block;
+    padding:10px;
+}
+.services
+{
+    
+    margin: 20px auto;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 250px;
+    border-color: black;
+    overflow:none;
+    
+}
+
+.marriage{
+    width: 20%;
+    background-image: url(./images/wedding.jpg);
+    border-radius: 0.5em;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.party{
+    width: 20%;
+    background-image: url(./images/party.jpeg);
+    border-radius: 0.5em;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.corporate{
+    width: 20%;
+    background-image: url(./images/corporate.jpeg);
+    border-radius: 0.5em;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.industry{
+    width: 20%;
+    background-image: url(./images/industry.jpg);
+    border-radius: 0.5em;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.marriage h3, .party h3, .corporate h3, .industry h3{
+    position: absolute;
+    bottom:0;
+    color: rgb(14, 13, 13);
+    padding: 15px;
+    background-color: white;
+
+}
+
+
+.about-us p{
+    text-align: justify;
+}
+
+.marriage:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+}
+
+.industry:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+}
+
+.party:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+}
+
+.corporate:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+}
+
+.marriage h3:hover{
+ color:red;
+
+}
+
+.industry h3:hover{
+   
+    color:red;
+   }
+
+.corporate h3:hover{
+    
+    color:red;
+   }
+
+.party h3:hover{
+
+    color: red;
+   }
+
+
+.head-below {
+margin-left: 9px;
+padding: 10px;
+border-bottom: solid 2px black;
+border-bottom-left-radius: 18px;
+
+}
+
+.bg-img{
+    width: auto;
+    background-image: url(./images/Food1-quality.jpg);
+    background-size: cover;
+    animation-name: bg;
+    animation-iteration-count: infinite;
+    position: relative;
+    transition: 0.5s all;
+    animation-duration: 15s;
+    height: 600px;
+    /* margin-top: -px; */
+    margin-left: -20px;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+@keyframes bg {
+    0%{
+        background-image: url(./images/Food-massive.jpg);
+    }    
+       
+    
+    50%{
+        background-image: linear-gradient(rgb(228, 84, 84)) url(./images/food-front.jpg);
+        
+    }
+    
+}
+
+.background-img{
+    display: flex;
+    width: 100%;
+    height: 450px;
+
+}
+
+
+.bg-img2{
+    background-image: url(./images/menubank-downfood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    /* background-image: url(./images/Food1-quality.jpg); */
+    background-size: cover;
+    /* animation-name: bg;
+    animation-iteration-count: infinite;
+    position: relative;
+    transition: 1s all; */
+    /* animation-duration: 15s; */
+    height: 600px;
+    /* margin-top: -px; */
+    /* margin-left: -20px; */
+    padding-bottom: 10px;
+    }
+
+/* 
+.bg-img3{
+    background-image: url(./images/menu-flex2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}     */
+
+.bg-img3{
+    background-image: url(./images/desert-food.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+
+.chef{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+.chef1 img{
+    object-fit: cover;
+    border-radius:5px;
+    box-shadow: grey 5px 5px 5px 5px;
+    
+}
+.navbar ul li::after{
+    background-color: white ;
+    content: ' ';
+    width: 0%;
+    height: 1.5px;
+    display: block;
+    margin: auto;
+    transition: .5s;
+    }
+.chef2 img{
+    object-fit: cover;
+    border-radius:5px;
+    box-shadow: grey 5px 5px 5px 5px;
+}
+
+.chef3 img{
+    object-fit: cover;
+    border-radius:5px;
+    box-shadow: grey 5px 5px 5px 5px;
+}
+
+.chef4 img{
+    object-fit: cover;
+    border-radius:5px;
+    box-shadow: grey 5px 5px 5px 5px;
+}
+
+.chef5 img{
+    object-fit: cover;
+    border-radius:5px;
+    box-shadow: grey 5px 5px 5px 5px;
+}
+
+h2{
+    margin: 0px;
+}
+
+.chef-flex h2{
+margin: 0 50px;
+
+}
+
+.chef h4{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.chef1 img:hover{
+  transform:scale(1.1);
+  transition: 1s ;
+  
+
+}
+
+.chef2 img:hover{
+    /* transform:rotate(360deg);
+    transition: 3s; */
+    /* height: 240px;
+    width: 240px; */
+    transform: scale(1.1);
+    transition: 1s ;
+
+}
+
+.chef3 img:hover{
+    /* transform:rotate(360deg);
+    transition: 3s; */
+    /* height: 240px;
+    width: 240px;
+} */
+transform: scale(1.1);
+transition: 1s ;
+}
+
+.chef4 img:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+}
+
+.chef5 img:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height:350px;
+    background-image: url(./images/topred.jpg);
+    background-size: 100%;
+    background-color: red;   
+    padding: 25px;
+    text-align: center;
+}
+
+footer h2{
+    padding-bottom: 10px;
+}
+
+
+.foot-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+    border-bottom: 1px solid white;
+    padding: 15px; 
+}
+.Quick-links{  
+    
+    color: white;
+    width: 30%;
+    height:200px;
+    
+}
+
+.contact{
+   
+    width: 30%;
+    color: white;
+    height: 200px;
+    
+}
+.about-us{
+   
+    font-size: 16px;
+    width: 30%;
+    color: white;
+    height:200px;
+    
+}
+
+.end{
+    float: right;
+    display: flex;
+    color: white;
+    padding-right: 20px;
+    /* padding: 25px; */
+    
+}
+
+
+
+table{
+    margin-left: 35%;
+    margin-bottom: 20px;
+    background-image: url(./images/red-box.jpg);
+    border-radius: 10px;
+    border-right-color: red;
+    border-top-right-radius: 50px;
+}
+
+/* h2{
+    margin-left:38% ;
+} */
+
+button{
+margin-left: 55px;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: bold;
+background-color:gray;
+border-radius: 2px solid;
+
+}
+
+button a{
+    color:black;
+  
+}
+
+.ending-of-selectevent{
+    background-color:white;
+    width: 16%;
+    margin-left: 43%;
+}
+
+.ending-of-selectevent button:hover{
+color:black  
+}
